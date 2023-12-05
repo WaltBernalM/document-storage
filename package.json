@@ -1,0 +1,28 @@
+{
+  "name": "raw_transactions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-crypto/sha256-js": "^4.0.0",
+    "@aws-sdk/credential-providers": "^3.352.0",
+    "@aws-sdk/fetch-http-handler": "^3.353.0",
+    "@aws-sdk/protocol-http": "^3.347.0",
+    "@aws-sdk/signature-v4": "^3.347.0",
+    "@aws-sdk/types": "^3.347.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^6.9.0",
+    "fs": "^0.0.1-security",
+    "solc": "^0.8.23-fixed",
+    "web3": "^1.10.0",
+    "xhr2": "^0.2.1"
+  }
+}
