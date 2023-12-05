@@ -17,13 +17,13 @@ const transactionCode1 = "0-1278-5049-X"
 const transactionCode2 = "0-1278-5049-Y"
 const transactionCode3 = "0-1278-5049-Z"
 
-async function getBookHash(transactionCode) {
-  const bookHash = await contract.getBookHash(transactionCode)
-  console.log("Retrieved Book Hash:", bookHash)
+async function getDocumentHash(transactionCode) {
+  const documentHash = await contract.getDocumentHash(transactionCode)
+  console.log("Retrieved Document Hash:", documentHash)
 }
 
-getBookHash(transactionCode1)
-getBookHash(transactionCode2)
-getBookHash(transactionCode3)
+getDocumentHash(transactionCode1)
+getDocumentHash(transactionCode2)
+getDocumentHash(transactionCode3)
 
-module.exports = getBookHash
+module.exports = getDocumentHash
